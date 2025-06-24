@@ -1,0 +1,500 @@
+*{
+    margin: 0%;
+    padding: 0;
+}
+body{
+ /* background: radial-gradient(circle, #0f2027, #0f1c21, #172c35); */
+  color: white;
+    background: linear-gradient(to bottom, #0d1f26, #092027);
+
+}
+
+.header{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 20px;
+    width: 100%;
+    color: white;
+    align-items: center;
+    background: rgb(5, 49, 49);
+    
+    
+}
+
+.header i{
+
+    display: none;
+}
+.header h1{
+    font-size: 40px;
+    margin-left: -50px;
+    color: black;
+    margin-right: 90px;
+    color: white;
+}
+.header ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    font-size: 20px;
+}
+.header ul a{
+    text-decoration: none;
+    color:white;
+}
+.header ul a:hover{
+    color: orange;
+}
+
+.btn{
+    padding: 10px 20px;
+    font-size: 17px;
+    background-color: rgb(5, 93, 11);;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+}
+.btn:hover{
+    background-color: rgb(66, 186, 66);;
+    color: white;
+}
+
+.main{
+    /* width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)) ,url("/images/blog0.jpg");
+    background-size: cover; */
+    margin-bottom: 30px;
+}
+.main{
+    width: 100%;
+    height: 600px;
+    position: relative;
+        background-image:linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)),url(images/blog.jpg);
+   background-size: cover;
+}
+.main h1{
+    font-size: 80px;
+    position: absolute;
+    bottom: 250px;
+    left: 550px;
+    color: white;
+
+}
+
+.blog{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.blog h1{
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+.blog p{
+    font-size: 20px;
+}
+
+.images img{
+    width: 270px;
+    height: 380px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    
+}
+.images img:hover{
+    transform: scale(1.1);
+    transition: 0.4s;
+    cursor: pointer;
+}
+.grid{
+    margin-bottom: 30px;
+    display: grid;
+    grid-template-columns: 300px 250px 350px;
+    gap: 36px;
+    justify-content: center;
+}
+.images{
+    width: 300px;
+    height: 400px;
+    /* margin-left: 20px; */
+        margin-bottom: 30px;
+        margin-top: 40px;
+}
+
+.images h1{
+    font-size: 20px;
+    padding-bottom: 10px;
+    margin-left: 10px;
+}
+.icon{
+    display : flex;
+    gap: 20px;
+    color: gray;
+    padding-bottom: 8px;
+        margin-left: 10px;
+
+}
+.icon span{
+    margin-left: 8px;
+    font-size: 15px;
+}
+#three img{
+    height: 450px;
+}
+
+#three{
+    margin-left: 20px;
+}
+#new{
+    height: 200px;
+    margin-top: 80px;
+    padding-right: -100px;
+    margin-left: 30px;
+}
+#new img{
+    height: 250px;
+    padding-top: 20px;
+    width:300px;
+    
+}
+#best{
+    margin-top: 60px;
+    padding-top: 40px;
+    margin-left: 50px;
+}
+#hapy img{
+    width: 350px;
+    height: 250px;
+}
+
+.last{
+    margin-top: 10%;
+    margin-bottom: 5%;
+    text-align: center;
+}
+.last h1{
+    font-size: 50px;
+    padding-bottom: 10px;
+}
+
+.safari{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 20px;
+  
+}
+.sawiro{
+ position: relative;
+ width: 300px;
+ height: 370px
+}
+.sawiro img{
+    width: 300px;
+    height: 370px;
+    border-radius: 2px;
+}
+.sawiro img:hover{
+    transform: scale(1.1);
+    transition: 0.4s;
+    cursor: pointer;
+}
+.sawiro h2{
+    position: absolute;
+   bottom:25px;
+   left: 10px;
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+.sawiro p{
+    position: absolute;
+     bottom: 10px;
+     margin-left: 20px;
+     padding-top: 20px;
+}
+
+.footer{
+    background-color: rgb(5, 49, 49);
+    padding: 100px 150px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.vista p{
+    margin-top: 20px;   
+}
+
+.iconss {
+    margin-top: 50px;
+}
+.iconss i{
+    font-size: 30px;
+    background-color: white;
+    color: #204E51;
+    padding: 10px;
+    border-radius: 50%;
+   
+
+   
+}
+.resp{
+    display: flex;
+    gap: 10%;
+}
+.pages h1{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.pages ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column; 
+    gap: 20px;
+}
+.pages ul a{
+    color: white;
+    text-decoration: none;
+    font-size: 19px;
+}
+.about h1{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.about ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column; 
+    gap: 20px;
+}
+
+
+
+/* Responsive */
+@media (max-width:390px){
+    .header {
+        padding: 10px 20px;
+    }
+    .header h1{
+        font-size: 32px;
+        margin-left: 10px;
+    }
+    .header ul a{
+        display: none;
+    }
+    .but{
+        display: none;
+    }
+    .header i{
+        display: block;
+        font-size: 30px;
+        margin-left: 10%;
+    }
+    .main{
+        width: 500px;
+        height: 450px;
+    }
+    .main h1{
+        font-size: 50px;
+        text-align: start;
+        left: 100px;
+        bottom: 150px;
+    }
+    .blog h1{
+       font-size: 30px;
+    }
+    .blog p{
+        font-size: 18px;
+    }
+    .grid{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #best{
+        margin-top: 22%;
+
+    }
+    #hapy{
+                margin-top: 25%;
+
+    }
+    .last h1{
+        font-size: 30px;
+        margin-top: 20%;
+        padding-bottom: 10%;
+    }
+    .last p{
+        font-size: 16px;
+    }
+    .safari{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .footer{
+    width: 100%;
+        flex-wrap: wrap;
+        text-align: left;
+
+}
+.vista{
+        width: 350px;
+
+}
+.vista p{
+    font-size: 15px ;
+}
+.vista h1{
+    font-size: 20px;
+}
+.iconss i{
+  font-size: 13px;
+  padding: 8px 10px;
+}
+.iconss{
+    display: flex;
+    gap: 10px;
+}
+.resp{
+    display: flex;
+    gap: 20%;
+    margin-top: 10%;
+}
+.pages h1{
+        font-size: 22px;
+
+}
+.about h1{
+    font-size: 22px;
+}
+.about ul{
+    font-size: 17px;
+}
+} 
+
+@media (min-width:391px) and (max-width:450px){
+     .header{
+   padding: 10px 20px;
+ }
+ .header h1{
+    font-size: 40px;
+ }
+  .header i{
+    display: inline;
+    font-size: 22px;
+ }
+ .header ul{
+    display: none;
+ }
+ .but{
+        display: none;
+
+ }
+  .main{
+        width: 500px;
+        height: 450px;
+    }
+    .main h1{
+        font-size: 50px;
+        text-align: start;
+        left: 100px;
+        bottom: 150px;
+    }
+    .blog h1{
+       font-size: 30px;
+    }
+    .blog p{
+        font-size: 18px;
+    }
+    .grid{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #best{
+        margin-top: 22%;
+
+    }
+    #hapy{
+                margin-top: 25%;
+
+    }
+    .last h1{
+        font-size: 30px;
+        margin-top: 20%;
+        padding-bottom: 10%;
+    }
+    .last p{
+        font-size: 16px;
+    }
+    .safari{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .footer{
+    width: 100%;
+        flex-wrap: wrap;
+        text-align: left;
+
+}
+.vista{
+        width: 350px;
+
+}
+.vista p{
+    font-size: 15px ;
+}
+.vista h1{
+    font-size: 20px;
+}
+.iconss i{
+  font-size: 13px;
+  padding: 8px 10px;
+}
+.iconss{
+    display: flex;
+    gap: 10px;
+}
+.resp{
+    display: flex;
+    gap: 20%;
+    margin-top: 10%;
+}
+.pages h1{
+        font-size: 22px;
+
+}
+.about h1{
+    font-size: 22px;
+}
+.about ul{
+    font-size: 17px;
+}
+}
+
+@media(min-width:451px) and (max-width:900px){
+    .header h1{
+        font-size: 40px;
+        margin-left: 20px;
+    }
+    .header ul{
+        display: none;
+    }
+
+    .grid{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .safari{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+
+

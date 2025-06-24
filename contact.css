@@ -1,0 +1,370 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+     /* background: radial-gradient(circle, #0f2027, #0f1c21, #172c35); */
+  background: linear-gradient(to bottom, #0d1f26, #092027);
+
+}
+.header{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 20px;
+    width: 100%;
+    color: white;
+    align-items: center;
+    background: rgb(5, 49, 49);
+    padding: 15px 20px;
+    
+
+    
+}
+
+
+.header h1{
+    font-size: 40px;
+    margin-left: -50px;
+    margin-right: 90px;
+}
+.header ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    font-size: 20px;
+}
+.header ul a{
+    text-decoration: none;
+    color: white;
+}
+.header ul a:hover{
+    color: orange;
+}
+.header i{
+    display: none;
+}
+.btn{
+    padding: 10px 20px;
+    font-size: 17px;
+    background-color:  rgb(5, 93, 11);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+}
+.btn:hover{
+    background-color: rgb(66, 186, 66);;
+    color: white;
+}
+
+.cont{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)) ,url(images/contact01.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 60vh;
+    position: relative;
+    margin-bottom: 20px;
+}
+.cont h1{
+  position: absolute;
+  bottom: 180px;
+left: 440px;
+  color: white;
+  font-size: 80px;
+}
+
+.us{
+    margin-bottom: 10%;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10%;
+    margin-top: 8%;
+}
+
+.box{
+    width: 400px;
+    height: 650px;
+    background: rgb(2, 48, 41);
+    text-align: center;
+    padding-top: 5%;
+    border-radius: 10px;
+    
+}
+.box:hover{
+    border: 3px solid orange;
+    cursor: pointer;
+}
+.box input{
+    padding: 8px 30px;
+    margin-top: 10px;
+    border-radius: 10px;
+    
+}
+.box textarea{
+    margin-top: 10%;
+    padding: 40px 40px;
+}
+
+.box input{
+        margin-top:4%;
+
+}
+.box h1{
+    font-size: 30px;
+    padding-bottom: 10%;
+    padding-top: 10%;
+}
+.box label{
+    font-size: 18px;
+    padding-right: 40%;
+
+}
+
+.text{
+    margin-top: 4%;
+}
+.icon{
+    margin-top: 8%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+
+.resp{
+    display: flex;
+    gap: 30%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+    background-color: rgb(5, 49, 49);
+    padding: 100px 150px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.vista p{
+    margin-top: 20px;   
+}
+
+.iconss {
+    margin-top: 50px;
+}
+.iconss i{
+    font-size: 30px;
+    background-color: white;
+    color: #204E51;
+    padding: 10px;
+    border-radius: 50%;
+   
+
+   
+}
+
+.pages h1{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.pages ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column; 
+    gap: 20px;
+}
+.pages ul a{
+    color: white;
+    text-decoration: none;
+    font-size: 19px;
+}
+.about h1{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.about ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column; 
+    gap: 20px;
+}
+
+
+/*Reponsive*/
+@media (max-width:390px){
+ .header{
+   padding: 10px 20px;
+ }
+ .header h1{
+    font-size: 40px;
+ }
+ .header i{
+    display: inline;
+    font-size: 30px;
+ }
+ .header ul{
+    display: none;
+ }
+ .but{
+        display: none;
+
+ }
+ .cont h1{
+    left: 80px;
+    top: 130px;
+    font-size: 40px;
+ }
+
+
+  .footer{
+    width: 100%;
+        flex-wrap: wrap;
+        text-align: left;
+
+}
+.vista{
+        width: 350px;
+
+}
+.vista p{
+    font-size: 15px ;
+    margin-left: -12%;
+}
+.vista h1{
+    font-size: 20px;
+}
+.iconss i{
+  font-size: 13px;
+  padding: 8px 10px;
+}
+.iconss{
+    display: flex;
+    gap: 10px;
+}
+.resp{
+    display: flex;
+    gap: 26%;
+    margin-top: 10%;
+}
+.pages h1{
+        font-size: 22px;
+
+}
+.about h1{
+    font-size: 22px;
+}
+.about ul{
+    font-size: 17px;
+}
+    
+
+
+}
+
+@media (min-width:391px) and (max-width:450px){
+     .header{
+   padding: 10px 20px;
+ }
+ .header h1{
+    font-size: 40px;
+ }
+  .header i{
+    display: inline;
+    font-size: 22px;
+ }
+ .header ul{
+    display: none;
+ }
+ .but{
+        display: none;
+
+ }
+
+  .footer{
+    width: 100%;
+        flex-wrap: wrap;
+        text-align: left;
+
+}
+.vista{
+        width: 350px;
+
+}
+.vista p{
+    font-size: 15px ;
+    margin-left: -12%;
+}
+.vista h1{
+    font-size: 20px;
+}
+.iconss i{
+  font-size: 13px;
+  padding: 8px 10px;
+}
+.iconss{
+    display: flex;
+    gap: 10px;
+}
+.resp{
+    display: flex;
+    gap: 26%;
+    margin-top: 10%;
+}
+.pages h1{
+        font-size: 22px;
+
+}
+.about h1{
+    font-size: 22px;
+}
+.about ul{
+    font-size: 17px;
+}
+}
+
+
+
+
+@media (min-width:451px) and (max-width:1024px){
+ .header{
+   padding: 10px 20px;
+ }
+ .header h1{
+    font-size: 80px;
+ }
+ .header ul{
+    display: none;
+ }
+  .header i{
+    /* display: inline; */
+ }
+ .but{
+        display:  block;
+
+ }
+}
